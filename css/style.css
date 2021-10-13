@@ -1,4 +1,5 @@
 body {
+
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -7,6 +8,24 @@ header nav {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.container_90 {
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+
+    font-size: 2.5rem;
+}
+
+.btn {
+
+    border-radius: 20px;
+}
+
+
+/* HEADER SECTION */
 .container_header_top {
 
     background-color: black;
@@ -26,10 +45,9 @@ header > .container-fluid {
 
 header .bg-light {
 
-    --bs-bg-opacity: 0;
+    --bs-bg-opacity: 1;
 }
 
-header nav a, 
 .navbar-light .navbar-nav .nav-link {
 
     color:black;
@@ -40,3 +58,89 @@ header nav a,
     padding-right: 15px;
 }
 
+
+/* JUMBOTRON ONE SECTION */
+
+#jumbo_one {
+
+    margin-top: 123px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: top center;
+    color: white;
+}
+
+.logo_text {
+
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.logo_text img{
+
+    max-width: 100%;
+}
+
+#jumbo_one p {
+
+    padding: 20px 0;
+}
+
+.button_container {
+
+    padding-bottom: 50px;
+}
+
+#jumbo_one h1 {
+
+    font-size: 2.5rem;
+    text-shadow: 3px 3px 2px black;
+}
+
+#jumbo_one p {
+
+    text-shadow: 3px 3px 2px black;
+}
+
+/* carillon */
+
+#carillon_jumbo_one {
+
+    margin: 40px 0;
+}
+
+#carillon_jumbo_one img {
+
+    border-radius: 15px;
+}
+
+#carillon_jumbo_one .ms_selected {
+
+    border: solid white 3px;
+    outline: solid #0070d1 2px;
+}
+
+#carillon_jumbo_one .img_container {
+
+    padding: 10px 0;
+}
+
+
+/* PS5 SECTION */
+
+#ps5_section {
+
+   padding : 50px 0;
+}
+
+#ps5_section h6 {
+
+    color: #0070d1;
+    padding: 0;
+    margin: 0;
+}
+
+#ps5_section h5 {
+
+    padding: 20px 0;
+    color: grey;
+}
