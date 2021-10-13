@@ -229,3 +229,9 @@ header .bg-light {
 #new_release p {
     padding: 10px 0;
 }
+
+#new_release .img_container {
+
+    text-decoration: none;
+    color: white;
+}
