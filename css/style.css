@@ -345,3 +345,13 @@ footer {
     text-decoration: none;
 }
 
+#top_footer .svg_sie {
+
+    width: 125px;
+}
+
+#top_footer p {
+
+    margin-top: 10px;
+    font-size: .7rem;
+}
