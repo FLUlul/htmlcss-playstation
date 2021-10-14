@@ -141,17 +141,18 @@ header .bg-light {
     margin: 0;
 }
 
-#ps5_section h5 {
+#ps5_section h5,
+#explore_ps4 h5 {
 
     color: grey;
 }
 
-#title_ps5_one h5 {
+.title_one h5 {
 
     padding-bottom: 50px;
 }
 
-#title_ps5_one h1,
+.title_one h1,
 #title_ps5_two h1{
 
     padding-bottom: 10px;
@@ -234,4 +235,26 @@ header .bg-light {
 
     text-decoration: none;
     color: white;
+}
+
+/* EXPLORE PS4 SECTION */
+
+#explore_ps4 {
+
+    padding : 50px 0;
+}
+
+#explore_ps4 sup {
+
+    font-size: 1.5rem;
+}
+
+#explore_ps4 .img_container {
+
+    margin: 20px 0;
+}
+
+#explore_ps4 .img_container p {
+
+    color: grey;
 }
