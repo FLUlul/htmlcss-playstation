@@ -260,7 +260,6 @@ header .bg-light {
     color: grey;
 }
 
-
 /* PS PLUS SECTION */
 
 #ps_plus {
@@ -296,4 +295,21 @@ header .bg-light {
 
     background: #161c3b;
     color: white;
+}
+
+/* SOCIALS SECTION */
+
+#socials {
+
+    padding: 50px 0;
+}
+
+#socials h1 {
+
+    font-size: 2rem;
+}
+
+#socials .img_container {
+
+    margin: 10px 0;
 }
