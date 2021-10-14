@@ -142,7 +142,8 @@ header .bg-light {
 }
 
 #ps5_section h5,
-#explore_ps4 h5 {
+#explore_ps4 h5,
+#sales h5 {
 
     color: grey;
 }
@@ -285,4 +286,16 @@ header .bg-light {
 #ps_plus .banner_lft .button_container .btn-light {
 
     color: #0070d1;
+}
+
+/* SALES SECTION */
+
+#sales {
+
+    padding: 50px 0;
+}
+
+#sales .img_container {
+
+    margin: 30px 0;
 }
