@@ -318,6 +318,30 @@ header .bg-light {
 
     #socials .img_container {
 
-        max-width: 100px;
+        max-width: 125px;
+        /* min-width: 50px;   */
     }
+
 }
+
+/* FOOTER SECTION */
+
+footer {
+
+    color: white;
+    background-color: #00439c;
+    padding: 20px 0;
+}
+
+#top_footer .svg_globe {
+
+    width: 20px;
+    margin: 20px 0;
+}
+
+#top_footer li a {
+
+    color: white;
+    text-decoration: none;
+}
+
