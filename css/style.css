@@ -313,3 +313,11 @@ header .bg-light {
 
     margin: 10px 0;
 }
+
+@media (min-width: 576px) {
+
+    #socials .img_container {
+
+        max-width: 100px;
+    }
+}
