@@ -87,7 +87,7 @@ header .bg-light {
     padding: 20px 0;
 }
 
-.button_container {
+.jumbotron .button_container {
 
     padding-bottom: 50px;
 }
@@ -268,19 +268,9 @@ header .bg-light {
     background-color: #bebcbb;
 }
 
-.banner_lft .img_container {
-
-    padding-top: 50px;
-}
-
 .banner_lft p {
 
     padding: 20px 0;
-}
-
-.banner_lft .button_container {
-
-    padding-bottom: 50px; 
 }
 
 #ps_plus .banner_lft .button_container .btn-light {
@@ -298,4 +288,12 @@ header .bg-light {
 #sales .img_container {
 
     margin: 30px 0;
+}
+
+/* PS NOW SECTION */
+
+#ps_now {
+
+    background: #161c3b;
+    color: white;
 }
