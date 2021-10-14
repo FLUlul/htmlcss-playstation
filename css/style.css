@@ -258,3 +258,31 @@ header .bg-light {
 
     color: grey;
 }
+
+
+/* PS PLUS SECTION */
+
+#ps_plus {
+
+    background-color: #bebcbb;
+}
+
+.banner_lft .img_container {
+
+    padding-top: 50px;
+}
+
+.banner_lft p {
+
+    padding: 20px 0;
+}
+
+.banner_lft .button_container {
+
+    padding-bottom: 50px; 
+}
+
+#ps_plus .banner_lft .button_container .btn-light {
+
+    color: #0070d1;
+}
