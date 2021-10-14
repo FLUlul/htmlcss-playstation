@@ -118,7 +118,7 @@ header .bg-light {
 #carillon_jumbo_one .ms_selected {
 
     border: solid white 3px;
-    outline: solid #0070d1 2px;
+    outline: solid #0070d1 5px;
 }
 
 #carillon_jumbo_one .img_container {
@@ -180,7 +180,7 @@ header .bg-light {
 
 #title_ps5_two .ms_selected .img_container {
 
-    border-bottom: solid 2px #0070d1;
+    border-bottom: solid 5px #0070d1;
     filter: opacity(100%);
     
 }
