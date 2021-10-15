@@ -95,6 +95,17 @@ header .navbar {
     background-color: transparent;
 }
 
+.nav_lft .ms_divisor {
+
+    border-top: solid #0070d1 2px;
+}
+
+.nav_lft .sub_link {
+
+    text-decoration: none;
+    padding: 0 10px;
+}
+
 
 /* JUMBOTRON ONE SECTION */
 
