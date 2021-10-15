@@ -60,12 +60,34 @@ header .bg-light {
     padding-right: 15px;
 }
 
+/* extra */
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+
+    border: none;
+    /* width: 100%; */
+    /* position: static; */
+}
+
+.nav_lft .nav-item, 
+.nav_rgt .nav-item {
+
+    line-height: 50px;
+}
+
+.nav_lft .dropdown-menu,
+.nav_rgt .dropdown-menu {
+
+    left: 0;
+    top: 65px;
+    right: 0;
+}
+
 
 /* JUMBOTRON ONE SECTION */
 
 #jumbo_one {
 
-    margin-top: 123px;
+    margin-top: 112px;
     background-image: url(../img/jumbo-bg.png);
     background-position: top center;
     color: white;
