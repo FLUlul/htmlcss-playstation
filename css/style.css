@@ -158,7 +158,14 @@ header .navbar {
 
 #carillon_jumbo_one .img_container {
 
-    padding: 10px 0;
+    padding-top: 15px;
+    transition: padding 0.5s;
+}
+
+#carillon_jumbo_one .img_container:hover {
+
+    padding-top: 0;
+    padding-bottom: 15px;
 }
 
 
