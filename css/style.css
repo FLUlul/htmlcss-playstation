@@ -45,11 +45,6 @@ header > .container-fluid {
     padding: 0;
 }
 
-header .bg-light {
-
-    --bs-bg-opacity: 1;
-}
-
 .navbar-light .navbar-nav .nav-link {
 
     color:black;
@@ -60,12 +55,16 @@ header .bg-light {
     padding-right: 15px;
 }
 
+header .navbar {
+
+    background-color: white;
+}
+
 /* extra */
 .navbar-expand-lg .navbar-nav .dropdown-menu {
 
     border: none;
-    /* width: 100%; */
-    /* position: static; */
+    border-bottom: #0070d1 5px solid;
 }
 
 .nav_lft .nav-item, 
@@ -80,6 +79,20 @@ header .bg-light {
     left: 0;
     top: 65px;
     right: 0;
+
+    border-radius: 0;
+}
+
+.nav_lft .dropdown-item {
+
+    border: solid 5px white;
+}
+
+.nav_lft .dropdown-item:hover {
+
+    border: solid #0070d1 5px;
+    border-radius: 5px;
+    background-color: transparent;
 }
 
 
@@ -87,7 +100,7 @@ header .bg-light {
 
 #jumbo_one {
 
-    margin-top: 112px;
+    margin-top: 129px;
     background-image: url(../img/jumbo-bg.png);
     background-position: top center;
     color: white;
